@@ -4,7 +4,7 @@
 In this post I will share 12 extremely useful hacks for JavaScript. These hacks reduce the code and will help you to run optimized code. So let’s start hacking!
  
 
-### 1) Converting to boolean using !! operator
+### 1) Converting to boolean using `!!` operator
 
 Sometimes we need to check if some variable exists or if it has a valid value, to consider them as true value. For do this kind of validation, you can use the `!!` (Double negation operator) a simple `!!variable`, which will automatically convert any kind of data to boolean and this variable will return false only if it has some of these values: `0`, `null`, `""`, `undefined` or `NaN`, otherwise it will return `true`. To understand it in practice, take a look this simple example:
 
